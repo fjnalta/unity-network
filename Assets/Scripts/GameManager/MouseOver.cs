@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class MouseOver : MonoBehaviour {
+public class MouseOver : NetworkBehaviour {
 
 	private Renderer ren;
 	private Shader originalShader;
@@ -18,7 +19,9 @@ public class MouseOver : MonoBehaviour {
 	}
 
 	void OnMouseOver() {
-		ren.material.shader = outline;
+		if (!isLocalPlayer) {
+			ren.material.shader = outline;
+		}
 	}
 
 	void OnMouseExit() {

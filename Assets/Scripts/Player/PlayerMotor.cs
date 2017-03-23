@@ -22,12 +22,14 @@ public class PlayerMotor : NetworkBehaviour {
 
 	void Start () {
 		CharacterController = GetComponent ("CharacterController") as CharacterController;
+		// Let Default Layer Objects pass through each other
+		Physics.IgnoreLayerCollision (0,0);
 	}
 
 	void Update () {
 		if (isLocalPlayer) {
 			if (CharacterController.isGrounded) {
-				MoveVector = MoveVector = new Vector3 (Input.GetAxisRaw ("Horizontal"), 0, Input.GetAxisRaw ("Vertical"));
+				MoveVector = new Vector3 (Input.GetAxisRaw ("Horizontal"), 0, Input.GetAxisRaw ("Vertical"));
 				MoveVector = transform.TransformDirection (MoveVector);
 				// Normalize MoveVector if Magnitude is > 1
 				if (MoveVector.magnitude > 1) {
