@@ -25,6 +25,8 @@ public class MouseOver : NetworkBehaviour {
 	}
 
 	void OnMouseExit() {
+		if (!isLocalPlayer) {
 			ren.material.shader = originalShader;
+		}
 	}
 }
