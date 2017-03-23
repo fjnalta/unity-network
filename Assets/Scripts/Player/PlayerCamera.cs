@@ -1,9 +1,8 @@
 using UnityEngine;
 using System.Collections;
-using UnityEngine.Networking;
 
 /* Script handles the PlayerCamera */
-public class PlayerCamera : NetworkBehaviour {
+public class PlayerCamera : MonoBehaviour {
 
 	[SerializeField] private GameObject target;
 	[SerializeField] private Camera playerCam;
@@ -44,7 +43,6 @@ public class PlayerCamera : NetworkBehaviour {
 	//Cooldownpuffer for SideButtons
 
 	void Start () {
-		if (isLocalPlayer) {
 			playerCam = GetComponentInChildren<Camera> ();
 			Vector3 angles = transform.eulerAngles;
 			xDeg = angles.x;
@@ -52,7 +50,6 @@ public class PlayerCamera : NetworkBehaviour {
 			currentDistance = distance;
 			desiredDistance = distance;
 			correctedDistance = distance;
-		}
 	}
 
 	void LateUpdate () {
