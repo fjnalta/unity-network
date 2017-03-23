@@ -1,0 +1,300 @@
+#
+# mtl file for arcMage.obj obj file
+#
+
+newmtl character/troll/male/trollmale.m2_Geoset_000
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_Body.png
+newmtl character/troll/male/trollmale.m2_Geoset_006
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_Body.png
+newmtl character/troll/male/trollmale.m2_Geoset_007
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_Body.png
+newmtl character/troll/male/trollmale.m2_Geoset_009
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_Body.png
+newmtl character/troll/male/trollmale.m2_Geoset_010
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_Body.png
+newmtl character/troll/male/trollmale.m2_Geoset_015
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_Body.png
+newmtl character/troll/male/trollmale.m2_Geoset_031
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_Body.png
+newmtl character/troll/male/trollmale.m2_Geoset_032
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_Body.png
+newmtl character/troll/male/trollmale.m2_Geoset_035
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_Body.png
+newmtl character/troll/male/trollmale.m2_Geoset_050
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_Body.png
+newmtl character/troll/male/trollmale.m2_Geoset_054
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_Body.png
+newmtl character/troll/male/trollmale.m2_Geoset_056
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_Body.png
+newmtl character/troll/male/trollmale.m2_Geoset_063
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_Body.png
+newmtl character/troll/male/trollmale.m2_Geoset_037_Dbl
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_hair00_00.png
+newmtl item/objectcomponents/head/helm_robe_raidmage_f_01_trm.m2_Geoset_001_Lum
+illum 2
+Kd 0.000000 0.000000 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_helm_robe_raidmage_f_01.png
+newmtl item/objectcomponents/head/helm_robe_raidmage_f_01_trm.m2_Geoset_002
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_helm_robe_raidmage_f_01.png
+newmtl item/objectcomponents/head/helm_robe_raidmage_f_01_trm.m2_Geoset_002
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_helm_robe_raidmage_f_01.png
+newmtl item/objectcomponents/head/helm_robe_raidmage_f_01_trm.m2_Geoset_000_Lum
+illum 2
+Kd 0.000000 0.000000 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_lightningviolet_3lg.png
+newmtl item/objectcomponents/head/helm_robe_raidmage_f_01_trm.m2_Geoset_002_Lum
+illum 2
+Kd 0.000000 0.000000 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_helm_robe_raidmage_f_01glowalpha.png
+newmtl item/objectcomponents/shoulder/rshoulder_robe_raidmage_f_01.m2_Geoset_000
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_shoulder_robe_raidmage_f_01.png
+newmtl item/objectcomponents/shoulder/rshoulder_robe_raidmage_f_01.m2_Geoset_001_Lum
+illum 2
+Kd 0.000000 0.000000 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_shoulder_robe_raidmage_f_01.png
+newmtl item/objectcomponents/shoulder/rshoulder_robe_raidmage_f_01.m2_Geoset_001_Lum
+illum 2
+Kd 0.000000 0.000000 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_shoulder_robe_raidmage_f_01.png
+newmtl item/objectcomponents/shoulder/rshoulder_robe_raidmage_f_01.m2_Geoset_003_Lum
+illum 2
+Kd 0.000000 0.000000 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_glowviolet32.png
+newmtl item/objectcomponents/shoulder/rshoulder_robe_raidmage_f_01.m2_Geoset_002_Lum
+illum 2
+Kd 0.000000 0.000000 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_lightningviolet_3lg.png
+newmtl item/objectcomponents/shoulder/rshoulder_robe_raidmage_f_01.m2_Geoset_004_Lum
+illum 2
+Kd 0.000000 0.000000 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_helm_robe_raidmage_f_01glowalpha2.png
+newmtl item/objectcomponents/shoulder/rshoulder_robe_raidmage_f_01.m2_Geoset_001_Lum
+illum 2
+Kd 0.000000 0.000000 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_shoulder_robe_raidmage_f_01glowalpha.png
+newmtl item/objectcomponents/shoulder/lshoulder_robe_raidmage_f_01.m2_Geoset_000_Lum
+illum 2
+Kd 0.000000 0.000000 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_shoulder_robe_raidmage_f_01.png
+newmtl item/objectcomponents/shoulder/lshoulder_robe_raidmage_f_01.m2_Geoset_001
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_shoulder_robe_raidmage_f_01.png
+newmtl item/objectcomponents/shoulder/lshoulder_robe_raidmage_f_01.m2_Geoset_000_Lum
+illum 2
+Kd 0.000000 0.000000 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_shoulder_robe_raidmage_f_01.png
+newmtl item/objectcomponents/shoulder/lshoulder_robe_raidmage_f_01.m2_Geoset_004_Lum
+illum 2
+Kd 0.000000 0.000000 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_glowviolet32.png
+newmtl item/objectcomponents/shoulder/lshoulder_robe_raidmage_f_01.m2_Geoset_002_Lum
+illum 2
+Kd 0.000000 0.000000 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_lightningviolet_3lg.png
+newmtl item/objectcomponents/shoulder/lshoulder_robe_raidmage_f_01.m2_Geoset_003_Lum
+illum 2
+Kd 0.000000 0.000000 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_helm_robe_raidmage_f_01glowalpha2.png
+newmtl item/objectcomponents/shoulder/lshoulder_robe_raidmage_f_01.m2_Geoset_000_Lum
+illum 2
+Kd 0.000000 0.000000 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_shoulder_robe_raidmage_f_01glowalpha.png
+newmtl item/objectcomponents/weapon/staff_2h_artifactaegwynsstaff_d_01.m2_Geoset_001
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_staff_2h_artifactaegwynsstaff_d_01purple.png
+newmtl item/objectcomponents/weapon/staff_2h_artifactaegwynsstaff_d_01.m2_Geoset_002_Lum
+illum 2
+Kd 0.000000 0.000000 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_staff_2h_artifactaegwynsstaff_d_01purple.png
+newmtl item/objectcomponents/weapon/staff_2h_artifactaegwynsstaff_d_01.m2_Geoset_000_Lum_Dbl
+illum 2
+Kd 0.000000 0.000000 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_staff_2h_artifactaegwynsstaff_d_01purple.png
+newmtl item/objectcomponents/weapon/staff_2h_artifactaegwynsstaff_d_01.m2_Geoset_003_Lum_Dbl
+illum 2
+Kd 0.000000 0.000000 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd arcMage_staff_2h_artifactaegwynsstaff_d_01purple.png
