@@ -20,8 +20,11 @@ public class PlayerTargeting : MonoBehaviour {
 
 	private void HandleMouseInput () {
 		if (Input.GetMouseButtonDown (0)) {
-			// disable sticky targeting - TODO make option available
-			resetTarget ();
+			// TODO make sticky targeting option available
+			// remove Target if only button is clicked and mouse is moved
+			if(Input.GetAxis ("Mouse X") == 0 && Input.GetAxis ("Mouse Y") == 0) {
+				resetTarget ();
+			}
 			//creates a ray from camera to mouse position
 			//creates a rayHit to detect the object hit
 			Ray ray = playerCam.ScreenPointToRay (Input.mousePosition);
