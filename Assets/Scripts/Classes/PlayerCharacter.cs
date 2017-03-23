@@ -26,15 +26,12 @@ public abstract class PlayerCharacter : NetworkBehaviour {
 	void Update () {
 		if (Input.GetButtonDown ("Spell1")) {
 			Spell1 ();
-			CmdCastSpell (Color.red);
 		}
 		if (Input.GetButtonDown ("Spell2")) {
 			Spell2 ();
-			CmdCastSpell (Color.blue);
 		}
 		if (Input.GetButtonDown ("Spell3")) {
 			Spell3 ();
-			CmdCastSpell (Color.green);
 		}
 		if (Input.GetButtonDown ("Spell4")) {
 			Spell4 ();
@@ -70,14 +67,14 @@ public abstract class PlayerCharacter : NetworkBehaviour {
 	// Process only on server
 	[Command]
 	public void CmdCastSpell(Color color) {
-		Debug.Log ("Server casted Spell and delegates to clients");
+		Debug.Log ("Server casts spell: " + color);
 		RpcProcessSpellCastEffects (color);
 	}
 
 	// Tell all Clients about the Changes
 	[ClientRpc]
 	public void RpcProcessSpellCastEffects(Color color) {
-		Debug.Log ("All clients process casted spell");
+		Debug.Log ("All Clients do: " + color);
 		gameObject.GetComponent<Renderer> ().material.color = color;
 
 	}

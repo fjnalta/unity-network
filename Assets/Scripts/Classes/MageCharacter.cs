@@ -12,23 +12,22 @@ public class MageCharacter : PlayerCharacter {
 	}
 
 	public override void Spell1() {
-		Debug.Log ("I am a Mage");
-
+		CmdCastSpell (Color.red);
 	}
 
 	public override void Spell2() {
-		Debug.Log (curlevel);
+		CmdCastSpell (Color.blue);
 	}
 
 	public override void Spell3() {
-		Debug.Log (health);
+		CmdCastSpell (Color.green);
 	}
 
 	public override void Spell4() {
-		Debug.Log (resource);
+		CmdCastSpell (Color.yellow);
 	}
 
 	public override void Spell5() {
-		Debug.Log (secondResource);
+		CmdCastSpell (Color.magenta);
 	}
 }
