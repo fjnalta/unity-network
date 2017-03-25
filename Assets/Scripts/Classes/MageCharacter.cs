@@ -12,22 +12,22 @@ public class MageCharacter : PlayerCharacter {
 	}
 
 	public override void Spell1() {
-		CmdCastSpell (Color.red);
+		CmdCastSpell (Color.red, target.getTarget (), this.gameObject, this.gameObject);
 	}
 
 	public override void Spell2() {
-		CmdCastSpell (Color.blue);
+		CmdCastSpell (Color.blue, target.getTarget (), this.gameObject, this.gameObject);
 	}
 
 	public override void Spell3() {
-		CmdCastSpell (Color.green);
+		CmdCastSpell (Color.green, target.getTarget (), this.gameObject, this.gameObject);
 	}
 
 	public override void Spell4() {
-		CmdCastSpell (Color.yellow);
+		CmdCastSpell (Color.yellow, target.getTarget (), this.gameObject, this.gameObject);
 	}
 
 	public override void Spell5() {
-		CmdCastSpell (Color.magenta);
+		CmdCastSpell (Color.magenta, target.getTarget (), this.gameObject, this.gameObject);
 	}
 }

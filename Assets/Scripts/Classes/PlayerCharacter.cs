@@ -8,6 +8,7 @@ using UnityEngine.Networking;
 public abstract class PlayerCharacter : NetworkBehaviour {
 
 	private Material mat;
+	public PlayerTargeting target;
 
 	// Genaral
 	[SyncVar] private string playerName;
@@ -21,6 +22,10 @@ public abstract class PlayerCharacter : NetworkBehaviour {
 	[SyncVar] public int resource;
 	// Resource Name
 	[SyncVar] public string secondResource;
+
+	void Awake () {
+		target = gameObject.GetComponent<PlayerTargeting> ();
+	}
 
 
 	void Update () {
@@ -66,16 +71,16 @@ public abstract class PlayerCharacter : NetworkBehaviour {
 
 	// Process only on server
 	[Command]
-	public void CmdCastSpell(Color color) {
-		Debug.Log ("Server casts spell: " + color);
-		RpcProcessSpellCastEffects (color);
+	public void CmdCastSpell(Color color, GameObject target, GameObject origin, GameObject spell) {
+		Debug.Log ("To: " + target + "From: " + origin);
+		RpcProcessSpellCastEffects (color, spell);
 	}
 
 	// Tell all Clients about the Changes
 	[ClientRpc]
-	public void RpcProcessSpellCastEffects(Color color) {
-		Debug.Log ("All Clients do: " + color);
-		gameObject.GetComponent<Renderer> ().material.color = color;
+	public void RpcProcessSpellCastEffects(Color color, GameObject spell) {
 
+		// Instantiate Spell Prefab
+//		Instantiate (spell, gameObject.transform.position, Quaternion.identity);
 	}
 }
