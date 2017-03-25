@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 
-public class CharacterMouseOver : NetworkBehaviour {
+public class MouseOver : NetworkBehaviour {
 
 	private Renderer ren;
 	private Shader originalShader;
@@ -16,7 +16,13 @@ public class CharacterMouseOver : NetworkBehaviour {
 	}
 
 	void Start() {
-		ren = GetComponentInChildren<SkinnedMeshRenderer> ();
+		if (gameObject.tag == "Minion") {
+			ren = GetComponent<MeshRenderer> ();
+		}
+		if (gameObject.tag == "Player") {
+			ren = GetComponentInChildren<SkinnedMeshRenderer> ();
+		}
+
 	}
 
 	void OnMouseOver() {
